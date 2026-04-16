@@ -49,10 +49,10 @@ const Philosophy = () => {
                   src={item.img}
                   alt={item.title}
                   fill
-                  className="object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
+                  className="object-cover group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <p className="absolute bottom-6 left-6 text-2xl font-medium italic">
                   {item.title}
                 </p>
